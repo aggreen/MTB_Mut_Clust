@@ -93,7 +93,7 @@ def calculate_G_scores(X, w):
         zeroed_X = deepcopy(X)
         zeroed_X[i] = 0
         
-        # sum of weights times X
+        # sum of weights times X. Recall w[i,i] is 0
         sum_of_wx = np.dot(w[i,:].reshape(1,-1), X)[0][0]
 
         # mean of x times sum of weights
@@ -129,8 +129,6 @@ _, uid, rv, entry, NUM_SHUFFLES, output_path, absolute_path = sys.argv
 
 NUM_SHUFFLES = int(NUM_SHUFFLES)
 
-time0 = time.time()
-
 # read the distance map
 dm = DistanceMap.from_file(f"{absolute_path}/filtered_distmaps/{entry}")
 
@@ -140,19 +138,16 @@ try:
 except:
 	to_analyze = pd.read_csv(f"{absolute_path}/{output_path}/{uid}/mutations_analyzed.csv", index_col=0)
 
+# Compute G scores
 w = compute_weight_matrix(dm.dist_matrix)
-
 X = create_X(to_analyze, dm.residues_i, column="summed")
 G_scores = calculate_G_scores(X, w)
-
 df = pd.DataFrame([dm.residues_i.id.values,G_scores.flatten()]).T
 df.columns = ["residue", "G_score"]
 df.to_csv(f"{absolute_path}/{output_path}/{uid}/G_scores.csv")
 G_score_df = df
 
-print("calculated G scores in", time.time() - time0)
-time1 = time.time()
-
+# Make the random permutations
 shuffle_table = random_G_score_table(NUM_SHUFFLES, X, w, dm)
 shuffle_table.to_csv(f"{absolute_path}/{output_path}/{uid}/random_GeO_iterations_{NUM_SHUFFLES}.csv.gz", compression='gzip')
 
@@ -177,6 +172,3 @@ result_table_full = pd.DataFrame([[ks.statistic, ks.pvalue, max_GeO_greater, mea
 								 columns=["score", "pvalue", "max_GeO_greater", "mean_GeO_greater", "min_GeO_greater"]
 								)
 result_table_full.to_csv(f"{absolute_path}/{output_path}/{uid}/random_GeO_full_distribution_{NUM_SHUFFLES}.csv")
-
-
-print("shuffles accomplished in", time.time() - time1)
