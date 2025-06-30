@@ -1,0 +1,126 @@
+{
+    "Frequency": {
+        "features": [
+            "frequency"
+        ],
+        "accuracy": 0.9380530973451328,
+        "precision": 0.9553982300884956,
+        "roc_auc": {
+            "0": 0.9894736842105264,
+            "1": 0.9894736842105263
+        },
+        "feature_importance": "[1.]",
+        "misclassified_indices": "Index([4451, 2715, 87, 81, 4202, 2186, 88], dtype='int64')",
+        "misclassified_samples": "     drug  gene     variant              confidence one_letter_mutation  \\\n4451  MXF  gyrB  gyrB_E501V  2) Assoc w R - Interim               E501V   \n2715  MXF  gyrA   gyrA_A90V            1) Assoc w R                A90V   \n87    RIF  rpoB  rpoB_Q436N  2) Assoc w R - Interim               Q436N   \n81    RIF  rpoB  rpoB_G426S  2) Assoc w R - Interim               G426S   \n4202  LEV  gyrB  gyrB_E501V  2) Assoc w R - Interim               E501V   \n2186  PZA  pncA   pncA_I31T  2) Assoc w R - Interim                I31T   \n88    RIF  rpoB  rpoB_T427G  2) Assoc w R - Interim               T427G   \n\n      frequency  phenotype  position  WHO_Adjusted_Position  \\\n4451   0.000000  Resistant       501                    507   \n2715   0.477811  Resistant        90                     96   \n87     0.000000  Resistant       436                    442   \n81     0.000000  Resistant       426                    432   \n4202   0.000000  Resistant       501                    507   \n2186        NaN  Resistant        31                     37   \n88     0.000000  Resistant       427                    433   \n\n      Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n4451                   3.444930                   505.0  7.205375   \n2715                   1.336844                    97.0  8.260001   \n87                     1.333771                   441.0  3.464985   \n81                     1.335177                   433.0  2.296259   \n4202                   3.444930                   505.0  7.205375   \n2186                   3.957231                    34.0 -0.470714   \n88                     1.330037                   434.0  4.233032   \n\n      predicted_confidence  \n4451                     1  \n2715                     1  \n87                       1  \n81                       1  \n4202                     1  \n2186                     1  \n88                       1  ",
+        "category_3_predictions": {
+            "resistant_count": "4315",
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "Proximity": {
+        "features": [
+            "Proximity_to_R_Conferring"
+        ],
+        "accuracy": 0.911504424778761,
+        "precision": 0.9068605975641812,
+        "roc_auc": {
+            "0": 0.7798245614035088,
+            "1": 0.7798245614035088
+        },
+        "feature_importance": "[1.]",
+        "misclassified_indices": "Index([2345, 2704, 2347, 2061, 2337, 2062, 3412, 2339, 2340, 619], dtype='int64')",
+        "misclassified_samples": "     drug  gene     variant                  confidence one_letter_mutation  \\\n2345  PZA  pncA  pncA_T114M  4) Not assoc w R - Interim               T114M   \n2704  LEV  gyrA   gyrA_A90G  4) Not assoc w R - Interim                A90G   \n2347  PZA  pncA   pncA_T87M  4) Not assoc w R - Interim                T87M   \n2061  PZA  pncA    pncA_I6T                1) Assoc w R                 I6T   \n2337  PZA  pncA  pncA_A171V  4) Not assoc w R - Interim               A171V   \n2062  PZA  pncA   pncA_S59P                1) Assoc w R                S59P   \n3412  STM   gid   gid_Y195H            5) Not assoc w R               Y195H   \n2339  PZA  pncA   pncA_V21A  4) Not assoc w R - Interim                V21A   \n2340  PZA  pncA   pncA_L35R  4) Not assoc w R - Interim                L35R   \n619   RIF  rpoB  rpoB_I925V            5) Not assoc w R               I925V   \n\n      frequency    phenotype  position  WHO_Adjusted_Position  \\\n2345   0.000000  Susceptible       114                    120   \n2704   0.000000  Susceptible        90                     96   \n2347   0.000000  Susceptible        87                     93   \n2061   1.000000    Resistant         6                     13   \n2337   0.142857  Susceptible       171                    177   \n2062   1.000000    Resistant        59                     65   \n3412   0.196532  Susceptible       195                    201   \n2339   0.142857  Susceptible        21                     28   \n2340   0.041667  Susceptible        35                     41   \n619    0.121951  Susceptible       925                    931   \n\n      Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n2345                   2.885122                   125.0 -1.166240   \n2704                   1.336844                    97.0  8.260001   \n2347                   3.375946                   110.0 -1.153319   \n2061                   1.329254                    12.0  1.370915   \n2337                   1.321047                   178.0  0.542913   \n2062                   1.336536                    64.0  1.780060   \n3412                  10.176492                    75.0 -0.614476   \n2339                   3.040371                    24.0  0.790300   \n2340                   1.345013                    40.0 -0.961242   \n619                   23.295138                   450.0  0.017423   \n\n      predicted_confidence  \n2345                     0  \n2704                     0  \n2347                     0  \n2061                     1  \n2337                     0  \n2062                     1  \n3412                     0  \n2339                     0  \n2340                     0  \n619                      0  ",
+        "category_3_predictions": {
+            "resistant_count": "454",
+            "susceptible_count": "3861",
+            "resistant_percentage": 10.52143684820394,
+            "susceptible_percentage": 89.47856315179607
+        }
+    },
+    "G-score": {
+        "features": [
+            "G_score"
+        ],
+        "accuracy": 0.9026548672566371,
+        "precision": 0.9165704758240348,
+        "roc_auc": {
+            "0": 0.9084795321637427,
+            "1": 0.9084795321637427
+        },
+        "feature_importance": "[1.]",
+        "misclassified_indices": "Index([2050, 2116, 2715, 2061, 2337, 2349, 2339, 2340, 2065, 2083, 2186], dtype='int64')",
+        "misclassified_samples": "     drug  gene     variant                  confidence one_letter_mutation  \\\n2050  PZA  pncA   pncA_I31S                1) Assoc w R                I31S   \n2116  PZA  pncA   pncA_G24D                1) Assoc w R                G24D   \n2715  MXF  gyrA   gyrA_A90V                1) Assoc w R                A90V   \n2061  PZA  pncA    pncA_I6T                1) Assoc w R                 I6T   \n2337  PZA  pncA  pncA_A171V  4) Not assoc w R - Interim               A171V   \n2349  LEV  gyrA   gyrA_A90V                1) Assoc w R                A90V   \n2339  PZA  pncA   pncA_V21A  4) Not assoc w R - Interim                V21A   \n2340  PZA  pncA   pncA_L35R  4) Not assoc w R - Interim                L35R   \n2065  PZA  pncA  pncA_L151S                1) Assoc w R               L151S   \n2083  PZA  pncA   pncA_L27P                1) Assoc w R                L27P   \n2186  PZA  pncA   pncA_I31T      2) Assoc w R - Interim                I31T   \n\n      frequency    phenotype  position  WHO_Adjusted_Position  \\\n2050   0.894737    Resistant        31                     37   \n2116   0.833333    Resistant        24                     31   \n2715   0.477811    Resistant        90                     96   \n2061   1.000000    Resistant         6                     13   \n2337   0.142857  Susceptible       171                    177   \n2349   0.904128    Resistant        90                     96   \n2339   0.142857  Susceptible        21                     28   \n2340   0.041667  Susceptible        35                     41   \n2065   0.733333    Resistant       151                    157   \n2083   0.888889    Resistant        27                     34   \n2186        NaN    Resistant        31                     37   \n\n      Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n2050                   3.957231                    34.0 -0.470714   \n2116                   2.872075                    34.0 -0.198849   \n2715                   1.336844                    97.0  8.260001   \n2061                   1.329254                    12.0  1.370915   \n2337                   1.321047                   178.0  0.542913   \n2349                   1.336844                    97.0  8.260001   \n2339                   3.040371                    24.0  0.790300   \n2340                   1.345013                    40.0 -0.961242   \n2065                   2.940556                   160.0 -1.245326   \n2083                   2.872075                    31.0 -0.205590   \n2186                   3.957231                    34.0 -0.470714   \n\n      predicted_confidence  \n2050                     1  \n2116                     1  \n2715                     1  \n2061                     1  \n2337                     0  \n2349                     1  \n2339                     0  \n2340                     0  \n2065                     1  \n2083                     1  \n2186                     1  ",
+        "category_3_predictions": {
+            "resistant_count": "3508",
+            "susceptible_count": "807",
+            "resistant_percentage": 81.29779837775203,
+            "susceptible_percentage": 18.702201622247973
+        }
+    },
+    "Frequency + Proximity": {
+        "features": [
+            "frequency",
+            "Proximity_to_R_Conferring"
+        ],
+        "accuracy": 0.9557522123893806,
+        "precision": 0.9605205298741274,
+        "roc_auc": {
+            "0": 0.9877192982456141,
+            "1": 0.987719298245614
+        },
+        "feature_importance": "[0.54846828 0.45153172]",
+        "misclassified_indices": "Index([4451, 2345, 87, 81, 4202], dtype='int64')",
+        "misclassified_samples": "     drug  gene     variant                  confidence one_letter_mutation  \\\n4451  MXF  gyrB  gyrB_E501V      2) Assoc w R - Interim               E501V   \n2345  PZA  pncA  pncA_T114M  4) Not assoc w R - Interim               T114M   \n87    RIF  rpoB  rpoB_Q436N      2) Assoc w R - Interim               Q436N   \n81    RIF  rpoB  rpoB_G426S      2) Assoc w R - Interim               G426S   \n4202  LEV  gyrB  gyrB_E501V      2) Assoc w R - Interim               E501V   \n\n      frequency    phenotype  position  WHO_Adjusted_Position  \\\n4451        0.0    Resistant       501                    507   \n2345        0.0  Susceptible       114                    120   \n87          0.0    Resistant       436                    442   \n81          0.0    Resistant       426                    432   \n4202        0.0    Resistant       501                    507   \n\n      Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n4451                   3.444930                   505.0  7.205375   \n2345                   2.885122                   125.0 -1.166240   \n87                     1.333771                   441.0  3.464985   \n81                     1.335177                   433.0  2.296259   \n4202                   3.444930                   505.0  7.205375   \n\n      predicted_confidence  \n4451                     1  \n2345                     0  \n87                       1  \n81                       1  \n4202                     1  ",
+        "category_3_predictions": {
+            "resistant_count": "4315",
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "Frequency + G-score": {
+        "features": [
+            "frequency",
+            "G_score"
+        ],
+        "accuracy": 0.9823008849557522,
+        "precision": 0.984070796460177,
+        "roc_auc": {
+            "0": 0.9976608187134504,
+            "1": 0.9976608187134502
+        },
+        "feature_importance": "[0.66227422 0.33772578]",
+        "misclassified_indices": "Index([81, 2186], dtype='int64')",
+        "misclassified_samples": "     drug  gene     variant              confidence one_letter_mutation  \\\n81    RIF  rpoB  rpoB_G426S  2) Assoc w R - Interim               G426S   \n2186  PZA  pncA   pncA_I31T  2) Assoc w R - Interim                I31T   \n\n      frequency  phenotype  position  WHO_Adjusted_Position  \\\n81          0.0  Resistant       426                    432   \n2186        NaN  Resistant        31                     37   \n\n      Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n81                     1.335177                   433.0  2.296259   \n2186                   3.957231                    34.0 -0.470714   \n\n      predicted_confidence  \n81                       1  \n2186                     1  ",
+        "category_3_predictions": {
+            "resistant_count": "4315",
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "Combined": {
+        "features": [
+            "frequency",
+            "Proximity_to_R_Conferring",
+            "G_score"
+        ],
+        "accuracy": 0.9911504424778761,
+        "precision": 0.9916162086632511,
+        "roc_auc": {
+            "0": 0.9982456140350877,
+            "1": 0.9982456140350877
+        },
+        "feature_importance": "[0.47943658 0.3247772  0.19578623]",
+        "misclassified_indices": "Index([81], dtype='int64')",
+        "misclassified_samples": "   drug  gene     variant              confidence one_letter_mutation  \\\n81  RIF  rpoB  rpoB_G426S  2) Assoc w R - Interim               G426S   \n\n    frequency  phenotype  position  WHO_Adjusted_Position  \\\n81        0.0  Resistant       426                    432   \n\n    Proximity_to_R_Conferring  Nearest_Mutation_Index   G_score  \\\n81                   1.335177                   433.0  2.296259   \n\n    predicted_confidence  \n81                     1  ",
+        "category_3_predictions": {
+            "resistant_count": "4315",
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    }
+}
