@@ -1,0 +1,6 @@
+# extra folders
+__pycache__
+
+# checkpoint files
+*.ipynb_checkpoints
+
