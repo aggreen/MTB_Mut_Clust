@@ -48,17 +48,17 @@ def performance_evaluation(y_test, y_pred,y_prob):
         fpr[cls], tpr[cls], _ = roc_curve(y_test == cls, y_prob[:, idx])
         roc_auc[cls] = auc(fpr[cls], tpr[cls])
         
-    #plot roc-auc curve     
-    plt.figure(figsize=(8, 6))
-    for cls in class_to_index:
-        plt.plot(fpr[cls], tpr[cls], label=f"Class {cls} (AUC = {roc_auc[cls]:.2f})")
-    plt.plot([0, 1], [0, 1], 'k--')
-    plt.xlabel("False Positive Rate")
-    plt.ylabel("True Positive Rate")
-    plt.title("ROC Curve")
-    plt.legend()
-    plt.grid()
-    plt.show()
+    # #plot roc-auc curve     
+    # plt.figure(figsize=(8, 6))
+    # for cls in class_to_index:
+    #     plt.plot(fpr[cls], tpr[cls], label=f"Class {cls} (AUC = {roc_auc[cls]:.2f})")
+    # plt.plot([0, 1], [0, 1], 'k--')
+    # plt.xlabel("False Positive Rate")
+    # plt.ylabel("True Positive Rate")
+    # plt.title("ROC Curve")
+    # plt.legend()
+    # plt.grid()
+    # plt.show()
     return accuracy, roc_auc, precision
 
 def plot_feature_importance(model,numeric_columns):
@@ -81,7 +81,7 @@ def predict_category_3(category_3_data, model,original_df,numeric_columns,y_test
     original_df.loc[original_df['confidence'] == "3) Uncertain significance", 'predicted_confidence'] = category_3_preds
     
     # Save prediction results
-    original_df.to_csv(f"/work/pi_annagreen_umass_edu/mahbuba/clustering_mutation/data/predicted_confidence_{numeric_columns}.csv", index=False)
+    original_df.to_csv(f"/project/pi_annagreen_umass_edu/mahbuba/all_projects/MTB_Mut_Clust/data/predicted_confidence_{numeric_columns}.csv", index=False)
 
 
 
