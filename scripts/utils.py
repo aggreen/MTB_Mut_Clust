@@ -37,6 +37,8 @@ def performance_evaluation(y_test, y_pred,y_prob):
     print("Classification Report:")
     print(classification_report(y_test, y_pred))
     precision = classification_report(y_test, y_pred, output_dict=True)['weighted avg']['precision'] #dataset is class imbalanced
+    sensitivity = classification_report(y_test, y_pred, output_dict=True)['label 0']['recall']
+    specificity= classification_report(y_test, y_pred, output_dict=True)['label 1']['recall']
     accuracy= accuracy_score(y_test, y_pred)
 
     # Create mapping from class label to index
@@ -81,9 +83,7 @@ def predict_category_3(category_3_data, model,original_df,numeric_columns,y_test
     original_df.loc[original_df['confidence'] == "3) Uncertain significance", 'predicted_confidence'] = category_3_preds
     
     # Save prediction results
-    original_df.to_csv(f"/work/pi_annagreen_umass_edu/mahbuba/clustering_mutation/data/predicted_confidence_{numeric_columns}.csv", index=False)
-
-
+    original_df.to_csv(f"../data/derived_features/predicted_confidence_{numeric_columns}.csv", index=False)
 
     predicted_confidence_counts = category_3_data['predicted_confidence'].value_counts()
     confidence_0_count = predicted_confidence_counts.get(0.0, 0)  # Get count of 0.0 predictions, default to 0 if missing
