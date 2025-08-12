@@ -1,0 +1,35 @@
+Gene,UniProtID,EntryName,ProteinName
+Rv0678,I6Y8F7,MMPR5_MYCTU,Transcriptional repressor Rv0678
+Rv1258c,P9WJX9,TAP_MYCTU,Probable multidrug efflux pump
+Rv1979c,P9WQM5,Y1979_MYCTU,Uncharacterized membrane protein Rv1979c
+Rv2983,P9WP83,FBID_MYCTU,F420 biosynthesis protein FbiD
+ahpC,P9WQB7,AHPC_MYCTU,Alkyl hydroperoxide reductase C
+atpE,P9WPS1,ATPL_MYCTU,ATP synthase subunit c
+clpC1,P9WPC9,CLPC1_MYCTU,ATP-dependent Clp protease ATP-binding subunit ClpC1
+ddn,P9WP15,DDN_MYCTU,F420-dependent glucose-6-phosphate dehydrogenase
+eis,P9WFK7,EIS_MYCTU,Enhanced intracellular survival protein Eis
+embA,P9WNL9,EMBA_MYCTU,Arabinofuranosyltransferase EmbA
+embB,P9WNL7,EMBB_MYCTU,Arabinofuranosyltransferase EmbB
+embC,P9WNL5,EMBC_MYCTU,Arabinofuranosyltransferase EmbC
+ethA,P9WNF9,ETHA_MYCTU,FAD-containing monooxygenase EthA
+fbiA,P9WP81,FBIA_MYCTU,F420 biosynthesis protein FbiA
+fbiB,P9WP79,FBIB_MYCTU,F420 biosynthesis protein FbiB
+fbiC,P9WP77,FBIC_MYCTU,F420 biosynthesis protein FbiC
+fgd1,P9WNE1,FGD_MYCTU,F420-dependent glucose-6-phosphate dehydrogenase
+gid,P9WGW9,RSMG_MYCTU,Glucose-inhibited division protein
+gyrA,P9WG47,GYRA_MYCTU,DNA gyrase subunit A
+gyrB,P9WG45,GYRB_MYCTU,DNA gyrase subunit B
+inhA,P9WGR1,INHA_MYCTU,Enoyl-[acyl-carrier-protein] reductase [NADH]
+katG,P9WIE5,KATG_MYCTU,Catalase-peroxidase
+mmpL5,P9WJV1,MMPL5_MYCTU,Probable membrane protein MmpL5
+mmpS5,P9WJS7,MMPS5_MYCTU,Probable membrane protein MmpS5
+mshA,P9WMY7,MSHA_MYCTU,Probable glycosyltransferase MshA
+panD,P9WIL3,PAND_MYCTU,Aspartate 1-decarboxylase
+pepQ,I6YDN6,I6YDN6_MYCTU,Xaa-Pro aminopeptidase PepQ
+pncA,I6XD65,PNCA_MYCTU,Nicotinamidase/pyrazinamidase
+rplC,P9WH87,RL3_MYCTU,50S ribosomal protein L3
+rpoB,P9WGY9,RPOB_MYCTU,DNA-directed RNA polymerase subunit beta
+rpsL,P9WH63,RS12_MYCTU,30S ribosomal protein S12
+tlyA,P9WJ63,TLYA_MYCTU,2′-O-methyltransferase TlyA
+ubiA,P9WFR5,DPPRS_MYCTU,4-hydroxybenzoate polyprenyltransferase
+whiB7,Q6MX01,WHB7A_MYCTU,Transcriptional regulator WhiB7

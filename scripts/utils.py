@@ -81,7 +81,7 @@ def predict_category_3(category_3_data, model,original_df,numeric_columns,y_test
     original_df.loc[original_df['confidence'] == "3) Uncertain significance", 'predicted_confidence'] = category_3_preds
     
     # Save prediction results
-    original_df.to_csv(f"/project/pi_annagreen_umass_edu/mahbuba/all_projects/MTB_Mut_Clust/data/predicted_confidence_{numeric_columns}.csv", index=False)
+    original_df.to_csv(f"../data/predicted_confidence_{numeric_columns}.csv", index=False)
 
 
 
