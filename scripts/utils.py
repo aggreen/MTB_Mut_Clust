@@ -11,20 +11,24 @@ from sklearn.metrics import (confusion_matrix, classification_report,
                              accuracy_score,roc_auc_score, roc_curve, auc, ConfusionMatrixDisplay)
 from scipy import stats
 import os
-def data_split(train_data,numeric_columns):
 
+def data_split(train_data, numeric_columns):
     filtered_indices = train_data.index
-    X = train_data[numeric_columns].values
+    X = train_data[numeric_columns]
     y = train_data['binary_confidence'].values
 
     scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    X_scaled = pd.DataFrame(
+        scaler.fit_transform(X),
+        columns=numeric_columns,
+        index=X.index
+    )
 
     X_train, X_test, y_train, y_test, train_indices, test_indices = train_test_split(
-                X_scaled, y, filtered_indices, test_size=0.3, random_state=42, stratify=y)
-    
-    return X_train, X_test, y_train, y_test, train_indices, test_indices
+        X_scaled, y, filtered_indices, test_size=0.3, random_state=42, stratify=y
+    )
 
+    return X_train, X_test, y_train, y_test, train_indices, test_indices
 
 def model_training(X_train, y_train,X_test):
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -74,10 +78,12 @@ def plot_feature_importance(model,numeric_columns):
 
 
 def predict_category_3(category_3_data, model,original_df,numeric_columns,y_test,y_pred,test_indices):
-    category_3_data[numeric_columns] = category_3_data[numeric_columns].fillna(0)
+    # category_3_data[numeric_columns] = category_3_data[numeric_columns].fillna(0)
+    category_3_data.loc[:, numeric_columns] = category_3_data[numeric_columns].fillna(0)
     category_3_preds = model.predict(category_3_data[numeric_columns])
 
-    category_3_data['predicted_confidence'] = category_3_preds
+    # category_3_data['predicted_confidence'] = category_3_preds
+    category_3_data.loc[:, 'predicted_confidence'] = category_3_preds
     original_df.loc[original_df['confidence'] == "3) Uncertain significance", 'predicted_confidence'] = category_3_preds
     
     # Save prediction results
