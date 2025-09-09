@@ -12,7 +12,6 @@ Ethionamide,ethA,ethA_G43S,2) Assoc w R - Interim,G43S,0.5,Resistant,43,1.0,44.0
 Ethionamide,ethA,ethA_T44A,2) Assoc w R - Interim,T44A,0.6666666666666666,Resistant,44,1.0,43.0,1.3365415334701538,43.0,4.046207811912378,,1.3365415334701538,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Ethionamide,ethA,ethA_S55P,2) Assoc w R - Interim,S55P,,Resistant,55,1.0,56.0,1.334851622581482,56.0,3.674026930490233,,1.334851622581482,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Ethionamide,ethA,ethA_T61M,1) Assoc w R,T61M,0.5,Resistant,61,3.0,58.0,2.645608901977539,390.0,2.811384268592761,,2.645608901977539,,1,1) Assoc w R,1,0,False,Incorrect
-Ethionamide,ethA,ethA_L194P,2) Assoc w R - Interim,L194P,1.0,Resistant,194,8.0,202.0,3.8980326652526855,202.0,0.7004126959718301,,3.8980326652526855,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Ethionamide,ethA,ethA_V202G,2) Assoc w R - Interim,V202G,1.0,Resistant,202,3.0,205.0,3.8980326652526855,194.0,-0.2732704369903268,,3.8980326652526855,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Ethionamide,ethA,ethA_L205P,2) Assoc w R - Interim,L205P,1.0,Resistant,205,2.0,207.0,4.444082260131836,207.0,1.572311291008164,,4.444082260131836,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Ethionamide,ethA,ethA_H281P,2) Assoc w R - Interim,H281P,0.731764705882353,Resistant,281,1.0,282.0,1.3332897424697876,282.0,1.5744854551480256,,1.3332897424697876,,1,2) Assoc w R - Interim,1,0,False,Incorrect
@@ -27,7 +26,6 @@ Isoniazid,katG,katG_L141S,1) Assoc w R,L141S,0.8,Resistant,141,1.0,142.0,1.33518
 Isoniazid,katG,katG_M257I,2) Assoc w R - Interim,M257I,0.875,Resistant,257,22.0,279.0,7.792862246953939,110.0,-0.0231078386762539,,7.792862246953939,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Isoniazid,katG,katG_G297V,1) Assoc w R,G297V,0.8571428571428571,Resistant,297,2.0,299.0,4.123460803742403,299.0,0.549738237031361,,4.123460803742403,,1,1) Assoc w R,1,0,False,Incorrect
 Isoniazid,katG,katG_G299S,2) Assoc w R - Interim,G299S,1.0,Resistant,299,2.0,297.0,3.066974241822059,142.0,0.99681615170051,,3.066974241822059,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Levofloxacin,gyrA,gyrA_A74S,2) Assoc w R - Interim,A74S,0.75,Resistant,74,4.0,70.0,7.60066556930542,89.0,1.8048126095866823,,7.60066556930542,,1,2) Assoc w R - Interim,1,0,False,Incorrect
 Pyrazinamide,pncA,pncA_L35P,1) Assoc w R,L35P,0.625,Resistant,35,1.0,34.0,1.3178353463160712,34.0,-0.9612423625877315,,1.3178353463160712,,1,1) Assoc w R,1,0,False,Incorrect
 Pyrazinamide,pncA,pncA_H43P,1) Assoc w R,H43P,1.0,Resistant,43,1.0,44.0,1.3435847572818014,44.0,-1.0234576565791846,,1.3435847572818014,,1,1) Assoc w R,1,0,False,Incorrect
 Pyrazinamide,pncA,pncA_T61P,1) Assoc w R,T61P,0.5714285714285714,Resistant,61,1.0,62.0,1.3599301452648205,62.0,1.626311264411118,,1.3599301452648205,,1,1) Assoc w R,1,0,False,Incorrect
@@ -38,7 +36,6 @@ Pyrazinamide,pncA,pncA_H137P,1) Assoc w R,H137P,1.0,Resistant,137,1.0,136.0,1.32
 Pyrazinamide,pncA,pncA_L156P,1) Assoc w R,L156P,1.0,Resistant,156,1.0,155.0,1.3376326102484166,155.0,0.271428906403854,,1.3376326102484166,,1,1) Assoc w R,1,0,False,Incorrect
 Pyrazinamide,pncA,pncA_V163A,1) Assoc w R,V163A,0.75,Resistant,163,1.0,162.0,1.3191701937202778,164.0,1.5096763106274775,,1.3191701937202778,,1,1) Assoc w R,1,0,False,Incorrect
 Rifampicin,rpoB,rpoB_S493L,1) Assoc w R,S493L,1.0,Resistant,493,2.0,497.0,3.3389622639377,454.0,3.986125129603708,499.0,3.3389622639377,,1,1) Assoc w R,1,0,False,Incorrect
-Streptomycin,gid,gid_A19T,1) Assoc w R,A19T,0.8,Resistant,19,7.0,26.0,3.3619675786658054,45.0,1.5525662003614489,,3.3619675786658054,,1,1) Assoc w R,1,0,False,Incorrect
 Streptomycin,gid,gid_V36G,1) Assoc w R,V36G,0.7,Resistant,36,1.0,37.0,1.3281920041921644,37.0,3.3500760658248527,,1.3281920041921644,,1,1) Assoc w R,1,0,False,Incorrect
 Streptomycin,gid,gid_A80P,1) Assoc w R,A80P,1.0,Resistant,80,1.0,79.0,1.3232512988846847,79.0,4.142567132864198,,1.3232512988846847,,1,1) Assoc w R,1,0,False,Incorrect
 Streptomycin,gid,gid_A82P,1) Assoc w R,A82P,0.8333333333333334,Resistant,82,1.0,83.0,1.3337799668611028,83.0,2.7968277295389554,,1.3337799668611028,,1,1) Assoc w R,1,0,False,Incorrect
