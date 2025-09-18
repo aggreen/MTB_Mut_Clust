@@ -1,0 +1,357 @@
+{
+    "Proximity_zeroed_RF": {
+        "misclassified_indices": [
+            2556,
+            8034,
+            3816,
+            3818,
+            9256,
+            6650,
+            7507,
+            5621,
+            4309,
+            5890,
+            4058,
+            5128,
+            2721
+        ],
+        "category_3_predictions": {
+            "resistant_count": 5896,
+            "susceptible_count": 423,
+            "resistant_percentage": 93.3059028327267,
+            "susceptible_percentage": 6.694097167273302
+        }
+    },
+    "Proximity_zeroed_LogReg": {
+        "misclassified_indices": [
+            5359,
+            2556,
+            8034,
+            5598,
+            4259,
+            3818,
+            9256,
+            5542,
+            7507,
+            5621,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 5483,
+            "susceptible_count": 836,
+            "resistant_percentage": 86.7700585535686,
+            "susceptible_percentage": 13.229941446431399
+        }
+    },
+    "Proximity_1d_RF": {
+        "misclassified_indices": [
+            5359,
+            8034,
+            5207,
+            7911,
+            5091,
+            3816,
+            4411,
+            9074,
+            3818,
+            4748,
+            6466,
+            7168,
+            7507,
+            5621,
+            9064,
+            4058,
+            5205,
+            3772,
+            9242,
+            5090,
+            5128,
+            4480,
+            5375,
+            5209
+        ],
+        "category_3_predictions": {
+            "resistant_count": 6319,
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "Proximity_1d_LogReg": {
+        "misclassified_indices": [
+            5359,
+            2556,
+            8034,
+            7911,
+            5965,
+            8008,
+            5598,
+            4259,
+            3818,
+            9256,
+            5542,
+            6593,
+            7507,
+            5621,
+            6734,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 5187,
+            "susceptible_count": 1132,
+            "resistant_percentage": 82.08577306535845,
+            "susceptible_percentage": 17.914226934641558
+        }
+    },
+    "G-score_RF": {
+        "misclassified_indices": [
+            2556,
+            8034,
+            7784,
+            3816,
+            8127,
+            7789,
+            4411,
+            9074,
+            9256,
+            8128,
+            7038,
+            7521,
+            8126,
+            7759,
+            7498,
+            7809,
+            7507,
+            7679,
+            7777,
+            5621,
+            9085,
+            9064,
+            7810,
+            8992,
+            3772,
+            9242,
+            1841,
+            8121,
+            5128,
+            339,
+            4989,
+            8993,
+            8130,
+            7670,
+            8132,
+            4935,
+            8134,
+            7517,
+            8133,
+            5061,
+            3835
+        ],
+        "category_3_predictions": {
+            "resistant_count": 1062,
+            "susceptible_count": 5257,
+            "resistant_percentage": 16.8064567178351,
+            "susceptible_percentage": 83.1935432821649
+        }
+    },
+    "G-score_LogReg": {
+        "misclassified_indices": [
+            5359,
+            2556,
+            8034,
+            5965,
+            8008,
+            5598,
+            4259,
+            3818,
+            9256,
+            7038,
+            5542,
+            6593,
+            8426,
+            7507,
+            6734,
+            1841,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 0,
+            "susceptible_count": 6319,
+            "resistant_percentage": 0.0,
+            "susceptible_percentage": 100.0
+        }
+    },
+    "G-score + Proximity_3D_zeroed_RF": {
+        "misclassified_indices": [
+            5359,
+            2556,
+            8034,
+            3816,
+            4259,
+            3818,
+            9256,
+            7507,
+            5621,
+            8992,
+            3772,
+            8993
+        ],
+        "category_3_predictions": {
+            "resistant_count": 5911,
+            "susceptible_count": 408,
+            "resistant_percentage": 93.54328216489951,
+            "susceptible_percentage": 6.456717835100491
+        }
+    },
+    "G-score + Proximity_3D_zeroed_LogReg": {
+        "misclassified_indices": [
+            3816,
+            4411,
+            9074,
+            204,
+            3818,
+            8983,
+            6650,
+            7507,
+            3751,
+            5621,
+            8845,
+            9085,
+            6500,
+            9165,
+            8790,
+            4309,
+            2659,
+            9064,
+            4058,
+            5194,
+            5128,
+            249,
+            339,
+            7754,
+            2721,
+            3835
+        ],
+        "category_3_predictions": {
+            "resistant_count": 6319,
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "G-score + Proximity_1D_RF": {
+        "misclassified_indices": [
+            5359,
+            8034,
+            3816,
+            4411,
+            4259,
+            9074,
+            3818,
+            9256,
+            7507,
+            5621,
+            9085,
+            8992,
+            3772,
+            9242,
+            1841,
+            5128,
+            8993,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 1087,
+            "susceptible_count": 5232,
+            "resistant_percentage": 17.20208893812312,
+            "susceptible_percentage": 82.79791106187689
+        }
+    },
+    "G-score + Proximity_1D_LogReg": {
+        "misclassified_indices": [
+            5359,
+            7911,
+            5091,
+            3816,
+            4259,
+            3818,
+            4748,
+            9256,
+            7507,
+            5621,
+            9299,
+            4058,
+            3772,
+            9242,
+            5090,
+            5128,
+            4480,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 6319,
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    },
+    "All_features_RF": {
+        "misclassified_indices": [
+            5359,
+            2556,
+            8034,
+            3816,
+            4259,
+            3818,
+            9256,
+            7507,
+            5621,
+            8992,
+            3772,
+            8993,
+            5375
+        ],
+        "category_3_predictions": {
+            "resistant_count": 5504,
+            "susceptible_count": 815,
+            "resistant_percentage": 87.10238961861054,
+            "susceptible_percentage": 12.89761038138946
+        }
+    },
+    "All_features_LogReg": {
+        "misclassified_indices": [
+            3816,
+            4411,
+            9074,
+            204,
+            3818,
+            8983,
+            6650,
+            7507,
+            3751,
+            5621,
+            8845,
+            9085,
+            6500,
+            9165,
+            8790,
+            4309,
+            2659,
+            9064,
+            4058,
+            5194,
+            5128,
+            249,
+            339,
+            7754,
+            2721,
+            3835
+        ],
+        "category_3_predictions": {
+            "resistant_count": 6319,
+            "susceptible_count": 0,
+            "resistant_percentage": 100.0,
+            "susceptible_percentage": 0.0
+        }
+    }
+}
