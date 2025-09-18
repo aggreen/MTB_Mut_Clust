@@ -1,0 +1,42 @@
+drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,Proximity_1D,Nearest_1D_Index,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score,WHO_Adjusted_Position,Proximity_to_R_Conferring_zeroed,binary_confidence,confidence_2023,true_label,model_prediction,correct,correct_str
+Bedaquiline,Rv0678,Rv0678_p.Leu32Ser,1) Assoc w R,L32S,1.0,Resistant,32,4.0,36.0,5.598958653178287,36.0,-0.8633333115853018,,5.598958653178287,1,1) Assoc w R,1,0,False,Incorrect
+Bedaquiline,Rv0678,Rv0678_p.Ala36Val,2) Assoc w R - Interim,A36V,1.0,Resistant,36,4.0,32.0,3.46285200376799,70.0,-0.6781756313490706,,3.46285200376799,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Bedaquiline,Rv0678,Rv0678_p.Ile67Ser,2) Assoc w R - Interim,I67S,1.0,Resistant,67,3.0,70.0,3.4902345193410733,70.0,-0.92510303559493,,3.4902345193410733,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethambutol,embB,embB_p.Ser347Ile,1) Assoc w R,S347I,0.6842105263157895,Resistant,347,7.0,354.0,4.549995274722828,296.0,0.9683318691444954,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Ethambutol,embB,embB_p.Ser347Thr,1) Assoc w R,S347T,0.8333333333333334,Resistant,347,7.0,354.0,4.549995274722828,296.0,0.9683318691444954,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Ethambutol,embB,embB_p.Pro404Ser,2) Assoc w R - Interim,P404S,0.5454545454545454,Resistant,404,1.0,405.0,1.33472581454021,405.0,3.7343662509945994,,1.33472581454021,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethionamide,ethA,ethA_p.Thr44Ala,2) Assoc w R - Interim,T44A,0.6666666666666666,Resistant,44,1.0,43.0,1.3365415334701538,43.0,4.046207811912378,,1.3365415334701538,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethionamide,ethA,ethA_p.Ser55Pro,2) Assoc w R - Interim,S55P,,Resistant,55,1.0,56.0,1.334851622581482,56.0,3.674026930490233,,1.334851622581482,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ala239Val,2) Assoc w R - Interim,A239V,1.0,Resistant,239,45.0,194.0,4.988499173098058,21.0,1.4379752017325147,,4.988499173098058,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,inhA,inhA_p.Val78Ala,5) Not assoc w R,V78A,0.0983606557377049,Susceptible,78,16.0,94.0,13.86627062335075,94.0,-0.4374779936938931,,13.86627062335075,0,5) Not assoc w R,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Gly299Ser,2) Assoc w R - Interim,G299S,1.0,Resistant,299,2.0,297.0,3.066974241822059,142.0,0.99681615170051,,3.066974241822059,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Ser315Ile,1) Assoc w R,S315I,1.0,Resistant,315,13.0,302.0,5.579780820068114,232.0,3.3258176510404573,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Ser315Gly,1) Assoc w R,S315G,1.0,Resistant,315,13.0,302.0,5.579780820068114,232.0,3.3258176510404573,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Thr354Ile,4) Not assoc w R - Interim,T354I,0.0714285714285714,Susceptible,354,17.0,337.0,11.073294044682456,337.0,0.5586731877038412,,11.073294044682456,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Ser457Gly,4) Not assoc w R - Interim,S457G,0.0,Susceptible,457,4.0,461.0,3.1100826355581006,461.0,-0.4253775762790253,,3.1100826355581006,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Pro718Ser,4) Not assoc w R - Interim,P718S,0.0,Susceptible,718,19.0,699.0,20.36972670410676,699.0,-0.4817955390773614,,20.36972670410676,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Levofloxacin,gyrA,gyrA_p.Ala456Val,4) Not assoc w R - Interim,A456V,0.0,Susceptible,456,168.0,288.0,41.10288619995117,70.0,-0.2185564701123141,,41.10288619995117,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Levofloxacin,gyrB,gyrB_p.Gly520Ala,5) Not assoc w R,G520A,0.0,Susceptible,520,16.0,504.0,13.729691802804595,447.0,0.6739748764379294,,13.729691802804595,0,5) Not assoc w R,0,1,False,Incorrect
+Moxifloxacin,gyrB,gyrB_p.Thr500Ala,2) Assoc w R - Interim,T500A,0.6363636363636364,Resistant,500,1.0,499.0,1.331570876821818,501.0,12.302836989124364,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Moxifloxacin,gyrB,gyrB_p.Ala504Thr,2) Assoc w R - Interim,A504T,0.75,Resistant,504,3.0,501.0,2.9943473412415083,500.0,4.33876584810587,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Leu35Pro,1) Assoc w R,L35P,0.625,Resistant,35,1.0,34.0,1.3178353463160712,34.0,-0.9612423625877315,,1.3178353463160712,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.His43Pro,1) Assoc w R,H43P,1.0,Resistant,43,1.0,44.0,1.3435847572818014,44.0,-1.0234576565791846,,1.3435847572818014,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Pro54Ser,1) Assoc w R,P54S,1.0,Resistant,54,3.0,51.0,3.276494773382067,57.0,1.0062838600306585,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Ala102Thr,1) Assoc w R,A102T,0.5,Resistant,102,1.0,103.0,1.3404849868610966,103.0,4.5062961220784805,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Ser104Gly,1) Assoc w R,S104G,0.6666666666666666,Resistant,104,1.0,103.0,1.3216860444144822,103.0,3.809329197948553,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.His137Pro,1) Assoc w R,H137P,1.0,Resistant,137,1.0,136.0,1.3275066854822226,138.0,4.101289868269953,,1.3275066854822226,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Thr142Pro,2) Assoc w R - Interim,T142P,1.0,Resistant,142,1.0,141.0,1.3331770325054362,143.0,3.207370113352414,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Thr350Ile,4) Not assoc w R - Interim,T350I,0.0,Susceptible,350,74.0,430.0,34.545774705454214,457.0,-0.329948201436121,356.0,34.545774705454214,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Ser493Leu,1) Assoc w R,S493L,1.0,Resistant,493,2.0,497.0,3.3389622639377,454.0,3.986125129603708,499.0,3.3389622639377,1,1) Assoc w R,1,0,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Met655Thr,5) Not assoc w R,M655T,0.0,Susceptible,655,162.0,499.0,25.369116618439833,445.0,0.0784996560967514,661.0,25.369116618439833,0,5) Not assoc w R,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Val36Gly,1) Assoc w R,V36G,0.7,Resistant,36,1.0,37.0,1.3281920041921644,37.0,3.3500760658248527,,1.3281920041921644,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Pro75Ser,1) Assoc w R,P75S,0.6,Resistant,75,1.0,76.0,1.3373896216136856,76.0,4.997822039836151,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Pro75Leu,1) Assoc w R,P75L,0.6666666666666666,Resistant,75,1.0,76.0,1.3373896216136856,76.0,4.997822039836151,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Val77Ala,1) Assoc w R,V77A,0.8,Resistant,77,1.0,76.0,1.332564820186995,76.0,3.835143964335779,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Val77Gly,2) Assoc w R - Interim,V77G,0.5,Resistant,77,1.0,76.0,1.332564820186995,76.0,3.835143964335779,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Leu79Ser,1) Assoc w R,L79S,0.75,Resistant,79,1.0,80.0,1.3232512988846847,80.0,3.385970596225667,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Ala80Pro,1) Assoc w R,A80P,1.0,Resistant,80,1.0,79.0,1.3232512988846847,79.0,4.142567132864198,,1.3232512988846847,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Leu91Val,4) Not assoc w R - Interim,L91V,0.8571428571428571,Susceptible,91,1.0,90.0,1.3288562751479205,90.0,2.577260913041187,,0.0,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Val135Gly,1) Assoc w R,V135G,0.6666666666666666,Resistant,135,1.0,134.0,1.3280640044817122,134.0,3.746309378097929,,1.3280640044817122,1,1) Assoc w R,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Leu152Ser,2) Assoc w R - Interim,L152S,1.0,Resistant,152,3.0,149.0,2.98050499076918,149.0,-0.5222829399211771,,2.98050499076918,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Streptomycin,gid,gid_p.Ala205Thr,5) Not assoc w R,A205T,0.1388888888888889,Susceptible,205,5.0,200.0,5.070793330436569,146.0,-1.511881381196954,,5.070793330436569,0,5) Not assoc w R,0,1,False,Incorrect

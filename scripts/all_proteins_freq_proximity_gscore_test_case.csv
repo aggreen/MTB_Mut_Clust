@@ -1,0 +1,5 @@
+drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,WHO_Adjusted_Position,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score
+RIF,rpoB,rpoB_S450L,1) Assoc w R,S450L,0.9888048411497732,Resistant,450,456,1.3288600377767423,455.0,2.808806771690097
+RIF,rpoB,rpoB_D435V,1) Assoc w R,D435V,0.9878542510121456,Resistant,435,441,1.3240173714872463,440.0,4.29142343499352
+INH,katG,katG_S315N,1) Assoc w R,S315N,0.9831932773109244,Resistant,315,315,20.424131487042477,328.0,3.3258176510404573
+INH,katG,katG_W328L,1) Assoc w R,W328L,1.0,Resistant,328,328,20.424131487042477,315.0,0.0852177612956694

@@ -1,0 +1,9 @@
+UniProt_ID,Gene,Position,WHO_AA,UniProt_AA,Phenotype
+sp|P9WGR1|INHA_MYCTU,inhA,4,T,L,Susceptible
+sp|P9WIE5|KATG_MYCTU,katG,1,V,M,Unknown
+sp|P9WIE5|KATG_MYCTU,katG,1,V,M,Unknown
+sp|P9WIE5|KATG_MYCTU,katG,1,V,M,Unknown
+sp|P9WIE5|KATG_MYCTU,katG,1,V,M,Unknown
+sp|I6Y8F7|MMPR5_MYCTU,Rv0678,1,V,M,Unknown
+tr|I6YDN6|I6YDN6_MYCTU,pepQ,1,V,M,Unknown
+sp|P9WJ63|TLYA_MYCTU,tlyA,1,V,M,Unknown
