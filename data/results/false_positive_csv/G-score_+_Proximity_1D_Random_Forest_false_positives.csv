@@ -1,20 +1,20 @@
-drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,Proximity_1D,Nearest_1D_Index,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score,WHO_Adjusted_Position,Proximity_to_R_Conferring_zeroed,predicted_confidence,binary_confidence,confidence_2023,true_label,model_prediction,correct,correct_str
-Bedaquiline,Rv0678,Rv0678_L32S,1) Assoc w R,L32S,1.0,Resistant,32,4.0,36.0,5.598958653178287,36.0,-0.8633333115853018,,5.598958653178287,,1,1) Assoc w R,1,0,False,Incorrect
-Bedaquiline,Rv0678,Rv0678_I67S,2) Assoc w R - Interim,I67S,1.0,Resistant,67,3.0,70.0,3.4902345193410733,70.0,-0.92510303559493,,3.4902345193410733,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Ethambutol,embB,embB_V668A,4) Not assoc w R - Interim,V668A,0.3333333333333333,Susceptible,668,26.0,642.0,8.202179588377733,642.0,-0.2521765548316333,,8.202179588377733,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Ethionamide,ethA,ethA_T321P,1) Assoc w R,T321P,1.0,Resistant,321,7.0,314.0,10.297886848449709,205.0,-1.6612030552501125,,10.297886848449709,,1,1) Assoc w R,1,0,False,Incorrect
-Isoniazid,inhA,inhA_V78A,5) Not assoc w R,V78A,0.0983606557377049,Susceptible,78,16.0,94.0,13.86627062335075,94.0,-0.4374779936938931,,13.86627062335075,,0,5) Not assoc w R,0,1,False,Incorrect
-Isoniazid,katG,katG_T354I,4) Not assoc w R - Interim,T354I,0.0714285714285714,Susceptible,354,17.0,337.0,11.073294044682456,337.0,0.5586731877038412,,11.073294044682456,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Isoniazid,katG,katG_S457G,4) Not assoc w R - Interim,S457G,0.0,Susceptible,457,4.0,461.0,3.1100826355581006,461.0,-0.4253775762790253,,3.1100826355581006,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Isoniazid,katG,katG_P718S,4) Not assoc w R - Interim,P718S,0.0,Susceptible,718,19.0,699.0,20.36972670410676,699.0,-0.4817955390773614,,20.36972670410676,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Levofloxacin,gyrA,gyrA_A456V,4) Not assoc w R - Interim,A456V,0.0,Susceptible,456,168.0,288.0,41.10288619995117,70.0,-0.2185564701123141,,41.10288619995117,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Levofloxacin,gyrB,gyrB_G520A,5) Not assoc w R,G520A,0.0,Susceptible,520,16.0,504.0,13.729691802804595,447.0,0.6739748764379294,,13.729691802804595,,0,5) Not assoc w R,0,1,False,Incorrect
-Linezolid,rplC,rplC_A31T,5) Not assoc w R,A31T,0.0,Susceptible,31,123.0,154.0,53.85736733261292,154.0,1.0184475960316233,,53.85736733261292,,0,5) Not assoc w R,0,1,False,Incorrect
-Pyrazinamide,pncA,pncA_L35P,1) Assoc w R,L35P,0.625,Resistant,35,1.0,34.0,1.3178353463160712,34.0,-0.9612423625877315,,1.3178353463160712,,1,1) Assoc w R,1,0,False,Incorrect
-Pyrazinamide,pncA,pncA_H43P,1) Assoc w R,H43P,1.0,Resistant,43,1.0,44.0,1.3435847572818014,44.0,-1.0234576565791846,,1.3435847572818014,,1,1) Assoc w R,1,0,False,Incorrect
-Pyrazinamide,pncA,pncA_T114P,1) Assoc w R,T114P,1.0,Resistant,114,2.0,116.0,3.408113114320005,94.0,-1.1662401606007335,,3.408113114320005,,1,1) Assoc w R,1,0,False,Incorrect
-Rifampicin,rpoB,rpoB_V113I,4) Not assoc w R - Interim,V113I,0.1142857142857142,Susceptible,113,57.0,176.0,9.518716352534083,442.0,1.0136651722190817,119.0,9.518716352534083,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Rifampicin,rpoB,rpoB_T350I,4) Not assoc w R - Interim,T350I,0.0,Susceptible,350,74.0,430.0,34.545774705454214,457.0,-0.329948201436121,356.0,34.545774705454214,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Rifampicin,rpoB,rpoB_M655T,5) Not assoc w R,M655T,0.0,Susceptible,655,162.0,499.0,25.369116618439833,445.0,0.0784996560967514,661.0,25.369116618439833,,0,5) Not assoc w R,0,1,False,Incorrect
-Streptomycin,gid,gid_L91V,4) Not assoc w R - Interim,L91V,0.8571428571428571,Susceptible,91,1.0,90.0,1.3288562751479205,90.0,2.577260913041187,,0.0,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Streptomycin,gid,gid_L152S,2) Assoc w R - Interim,L152S,1.0,Resistant,152,3.0,149.0,2.98050499076918,149.0,-0.5222829399211771,,2.98050499076918,,1,2) Assoc w R - Interim,1,0,False,Incorrect
+drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,Proximity_1D,Nearest_1D_Index,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score,WHO_Adjusted_Position,Proximity_to_R_Conferring_zeroed,binary_confidence,confidence_2023,true_label,model_prediction,correct,correct_str
+Bedaquiline,Rv0678,Rv0678_p.Leu32Ser,1) Assoc w R,L32S,1.0,Resistant,32,4.0,36.0,5.598958653178287,36.0,-0.8633333115853018,,5.598958653178287,1,1) Assoc w R,1,0,False,Incorrect
+Bedaquiline,Rv0678,Rv0678_p.Ile67Ser,2) Assoc w R - Interim,I67S,1.0,Resistant,67,3.0,70.0,3.4902345193410733,70.0,-0.92510303559493,,3.4902345193410733,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethambutol,embB,embB_p.Val668Ala,4) Not assoc w R - Interim,V668A,0.3333333333333333,Susceptible,668,26.0,642.0,8.202179588377733,642.0,-0.2521765548316333,,8.202179588377733,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Ethionamide,ethA,ethA_p.Thr321Pro,1) Assoc w R,T321P,1.0,Resistant,321,7.0,314.0,10.297886848449709,205.0,-1.6612030552501125,,10.297886848449709,1,1) Assoc w R,1,0,False,Incorrect
+Isoniazid,inhA,inhA_p.Val78Ala,5) Not assoc w R,V78A,0.0983606557377049,Susceptible,78,16.0,94.0,13.86627062335075,94.0,-0.4374779936938931,,13.86627062335075,0,5) Not assoc w R,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Thr354Ile,4) Not assoc w R - Interim,T354I,0.0714285714285714,Susceptible,354,17.0,337.0,11.073294044682456,337.0,0.5586731877038412,,11.073294044682456,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Ser457Gly,4) Not assoc w R - Interim,S457G,0.0,Susceptible,457,4.0,461.0,3.1100826355581006,461.0,-0.4253775762790253,,3.1100826355581006,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Isoniazid,katG,katG_p.Pro718Ser,4) Not assoc w R - Interim,P718S,0.0,Susceptible,718,19.0,699.0,20.36972670410676,699.0,-0.4817955390773614,,20.36972670410676,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Levofloxacin,gyrA,gyrA_p.Ala456Val,4) Not assoc w R - Interim,A456V,0.0,Susceptible,456,168.0,288.0,41.10288619995117,70.0,-0.2185564701123141,,41.10288619995117,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Levofloxacin,gyrB,gyrB_p.Gly520Ala,5) Not assoc w R,G520A,0.0,Susceptible,520,16.0,504.0,13.729691802804595,447.0,0.6739748764379294,,13.729691802804595,0,5) Not assoc w R,0,1,False,Incorrect
+Linezolid,rplC,rplC_p.Ala31Thr,5) Not assoc w R,A31T,0.0,Susceptible,31,123.0,154.0,53.85736733261292,154.0,1.0184475960316233,,53.85736733261292,0,5) Not assoc w R,0,1,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Leu35Pro,1) Assoc w R,L35P,0.625,Resistant,35,1.0,34.0,1.3178353463160712,34.0,-0.9612423625877315,,1.3178353463160712,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.His43Pro,1) Assoc w R,H43P,1.0,Resistant,43,1.0,44.0,1.3435847572818014,44.0,-1.0234576565791846,,1.3435847572818014,1,1) Assoc w R,1,0,False,Incorrect
+Pyrazinamide,pncA,pncA_p.Thr114Pro,1) Assoc w R,T114P,1.0,Resistant,114,2.0,116.0,3.408113114320005,94.0,-1.1662401606007335,,3.408113114320005,1,1) Assoc w R,1,0,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Val113Ile,4) Not assoc w R - Interim,V113I,0.1142857142857142,Susceptible,113,57.0,176.0,9.518716352534083,442.0,1.0136651722190817,119.0,9.518716352534083,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Thr350Ile,4) Not assoc w R - Interim,T350I,0.0,Susceptible,350,74.0,430.0,34.545774705454214,457.0,-0.329948201436121,356.0,34.545774705454214,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Rifampicin,rpoB,rpoB_p.Met655Thr,5) Not assoc w R,M655T,0.0,Susceptible,655,162.0,499.0,25.369116618439833,445.0,0.0784996560967514,661.0,25.369116618439833,0,5) Not assoc w R,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Leu91Val,4) Not assoc w R - Interim,L91V,0.8571428571428571,Susceptible,91,1.0,90.0,1.3288562751479205,90.0,2.577260913041187,,0.0,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Leu152Ser,2) Assoc w R - Interim,L152S,1.0,Resistant,152,3.0,149.0,2.98050499076918,149.0,-0.5222829399211771,,2.98050499076918,1,2) Assoc w R - Interim,1,0,False,Incorrect

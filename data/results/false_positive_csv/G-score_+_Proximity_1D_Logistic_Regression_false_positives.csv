@@ -1,13 +1,13 @@
-drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,Proximity_1D,Nearest_1D_Index,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score,WHO_Adjusted_Position,Proximity_to_R_Conferring_zeroed,predicted_confidence,binary_confidence,confidence_2023,true_label,model_prediction,correct,correct_str
-Ethambutol,embB,embB_T642A,2) Assoc w R - Interim,T642A,0.8333333333333334,Resistant,642,138.0,504.0,15.739759528023294,296.0,-0.0201350001508551,,15.739759528023294,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Ethionamide,inhA,inhA_I21T,1) Assoc w R,I21T,0.7931034482758621,Resistant,21,73.0,94.0,4.253259691107519,94.0,2.970098258261522,,0.0,,1,1) Assoc w R,1,0,False,Incorrect
-Ethionamide,inhA,inhA_I21V,1) Assoc w R,I21V,0.8888888888888888,Resistant,21,73.0,94.0,4.253259691107519,94.0,2.970098258261522,,0.0,,1,1) Assoc w R,1,0,False,Incorrect
-Ethionamide,inhA,inhA_S94A,1) Assoc w R,S94A,0.8620689655172413,Resistant,94,73.0,21.0,4.253259691107519,21.0,2.39346301941724,,4.253259691107519,,1,1) Assoc w R,1,0,False,Incorrect
-Ethionamide,inhA,inhA_I194T,1) Assoc w R,I194T,0.9423076923076924,Resistant,194,45.0,239.0,4.411410885419766,21.0,1.6839018594458464,,4.411410885419766,,1,1) Assoc w R,1,0,False,Incorrect
-Ethionamide,inhA,inhA_A239V,2) Assoc w R - Interim,A239V,1.0,Resistant,239,45.0,194.0,4.988499173098058,21.0,1.4379752017325147,,4.988499173098058,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Isoniazid,katG,katG_P232A,2) Assoc w R - Interim,P232A,1.0,Resistant,232,25.0,257.0,5.579780820068114,315.0,2.620020123119642,,0.0,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Isoniazid,katG,katG_P232S,2) Assoc w R - Interim,P232S,1.0,Resistant,232,25.0,257.0,5.579780820068114,315.0,2.620020123119642,,0.0,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Isoniazid,katG,katG_M257I,2) Assoc w R - Interim,M257I,0.875,Resistant,257,22.0,279.0,7.792862246953939,110.0,-0.0231078386762539,,7.792862246953939,,1,2) Assoc w R - Interim,1,0,False,Incorrect
-Isoniazid,katG,katG_S457G,4) Not assoc w R - Interim,S457G,0.0,Susceptible,457,4.0,461.0,3.1100826355581006,461.0,-0.4253775762790253,,3.1100826355581006,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Streptomycin,gid,gid_L91V,4) Not assoc w R - Interim,L91V,0.8571428571428571,Susceptible,91,1.0,90.0,1.3288562751479205,90.0,2.577260913041187,,0.0,,0,4) Not assoc w R - Interim,0,1,False,Incorrect
-Streptomycin,gid,gid_A205T,5) Not assoc w R,A205T,0.1388888888888889,Susceptible,205,5.0,200.0,5.070793330436569,146.0,-1.511881381196954,,5.070793330436569,,0,5) Not assoc w R,0,1,False,Incorrect
+drug,gene,variant,confidence,one_letter_mutation,frequency,phenotype,position,Proximity_1D,Nearest_1D_Index,Proximity_to_R_Conferring,Nearest_Mutation_Index,G_score,WHO_Adjusted_Position,Proximity_to_R_Conferring_zeroed,binary_confidence,confidence_2023,true_label,model_prediction,correct,correct_str
+Ethambutol,embB,embB_p.Thr642Ala,2) Assoc w R - Interim,T642A,0.8333333333333334,Resistant,642,138.0,504.0,15.739759528023294,296.0,-0.0201350001508551,,15.739759528023294,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ile21Thr,1) Assoc w R,I21T,0.7931034482758621,Resistant,21,73.0,94.0,4.253259691107519,94.0,2.970098258261522,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ile21Val,1) Assoc w R,I21V,0.8888888888888888,Resistant,21,73.0,94.0,4.253259691107519,94.0,2.970098258261522,,0.0,1,1) Assoc w R,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ser94Ala,1) Assoc w R,S94A,0.8620689655172413,Resistant,94,73.0,21.0,4.253259691107519,21.0,2.39346301941724,,4.253259691107519,1,1) Assoc w R,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ile194Thr,1) Assoc w R,I194T,0.9423076923076924,Resistant,194,45.0,239.0,4.411410885419766,21.0,1.6839018594458464,,4.411410885419766,1,1) Assoc w R,1,0,False,Incorrect
+Ethionamide,inhA,inhA_p.Ala239Val,2) Assoc w R - Interim,A239V,1.0,Resistant,239,45.0,194.0,4.988499173098058,21.0,1.4379752017325147,,4.988499173098058,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Pro232Ala,2) Assoc w R - Interim,P232A,1.0,Resistant,232,25.0,257.0,5.579780820068114,315.0,2.620020123119642,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Pro232Ser,2) Assoc w R - Interim,P232S,1.0,Resistant,232,25.0,257.0,5.579780820068114,315.0,2.620020123119642,,0.0,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Met257Ile,2) Assoc w R - Interim,M257I,0.875,Resistant,257,22.0,279.0,7.792862246953939,110.0,-0.0231078386762539,,7.792862246953939,1,2) Assoc w R - Interim,1,0,False,Incorrect
+Isoniazid,katG,katG_p.Ser457Gly,4) Not assoc w R - Interim,S457G,0.0,Susceptible,457,4.0,461.0,3.1100826355581006,461.0,-0.4253775762790253,,3.1100826355581006,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Leu91Val,4) Not assoc w R - Interim,L91V,0.8571428571428571,Susceptible,91,1.0,90.0,1.3288562751479205,90.0,2.577260913041187,,0.0,0,4) Not assoc w R - Interim,0,1,False,Incorrect
+Streptomycin,gid,gid_p.Ala205Thr,5) Not assoc w R,A205T,0.1388888888888889,Susceptible,205,5.0,200.0,5.070793330436569,146.0,-1.511881381196954,,5.070793330436569,0,5) Not assoc w R,0,1,False,Incorrect
