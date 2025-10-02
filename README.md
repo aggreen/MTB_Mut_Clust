@@ -5,7 +5,7 @@
 `jupyter notebook` code for analyses found in the `scripts` subdirectory. Input and output data found in the `data` subdirectory. 
 
 ## Environment requirements
-see `environment.txt` file 
+see `environment.yml` file 
 
 ## Citation
 
